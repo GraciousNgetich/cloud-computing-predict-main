@@ -25,6 +25,7 @@ $(function () {
       $.ajax({
         // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  --------
         url: "https://lz4d4c7n44.execute-api.eu-west-1.amazonaws.com/default/gracious_portfolio",
+
         // ------------------------------------------------------
         type: "POST",
         data: JSON.stringify(json),
