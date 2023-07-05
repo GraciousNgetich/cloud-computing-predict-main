@@ -24,7 +24,7 @@ $(function () {
       var json = { name: name, phone: phone, email: email, message: message };
       $.ajax({
         // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  --------
-        url: "https://lz4d4c7n44.execute-api.eu-west-1.amazonaws.com/default/gracious_portfolio",
+        url: "https://338widwv94.execute-api.eu-west-1.amazonaws.com/default/de_track_portfolio_lambda",
 
         // ------------------------------------------------------
         type: "POST",
