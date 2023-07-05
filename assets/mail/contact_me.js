@@ -24,7 +24,7 @@ $(function () {
       var json = { name: name, phone: phone, email: email, message: message };
       $.ajax({
         // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  --------
-        url: "https://m5o8pyi4u3.execute-api.eu-west-1.amazonaws.com/de_track",
+        url: "https://6g5bpg2ye8.execute-api.eu-west-1.amazonaws.com/de_track_lambda",
 
         // ------------------------------------------------------
         type: "POST",
