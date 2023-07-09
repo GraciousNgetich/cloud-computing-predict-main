@@ -92,6 +92,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  border-color: white !important;
 }
 
 h1,

@@ -45,6 +45,8 @@
                             href="blog.html">Blog</a></li> -->
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                             href="contact.html">Contact</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="books.html">Library</a></li>
                 </ul>
             </div>
         </div>
@@ -167,11 +169,13 @@
                         </div>
                         <!-- ========= CUSTOMISE SECTION =========== -->
                         <!-- Replace the link in the `src` string below to depict an image related to a project of yours -->
-                        <img class="img-fluid" src="assets/img/portfolio/onpremise-cloud.jpg" alt="" />
+                        <img class="img-fluid"
+                            src="assets/img/portfolio/how-to-migrate-on-premises-application-to-AWS_banner.jpg"
+                            alt="" />
                         <!-- ======================================= -->
                     </div>
                     <br>
-                    <h6 class="text-center"> Onpremise - AWS Cloud</h6>
+                    <h6 class="text-center"> OnPremise to AWS Cloud</h6>
                 </div>
 
                 <!-- Portfolio Item 6-->
@@ -196,7 +200,7 @@
 
     <!-- Copyright Section-->
     <div class="copyright py-4 text-center text-white">
-        <div class="container">
+        <div class="container lead">
             <strong><small> © GRACIOUS NGETICH | 2023</small></strong>
             <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
             <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/GraciousNgetich"><i
@@ -242,13 +246,44 @@
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
                                 <!-- Portfolio Piece - Text-->
                                 <!-- Modify the description of the first portfolio project here-->
-                                <p class="mb-5">Built a credit card fraud detection system for one of Kenya big
-                                    <i class="fa fa-thermometer-half" aria-hidden="true"></i> banks
-                                </p>
-                                <button class="btn btn-primary" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <h3>Project Description</h3>
+                                <hr>
+                                <br>
+                                <h6 class="mb-5">The objective is to develop an intelligent Data Engineering
+                                    website using Python and AWS.</h6>
+                                <ul class="mb-5 text-left">
+                                    <li>GitHub Repo: The repository houses the source code and other files for the
+                                        website.</li>
+                                    <li>AWS Amplify: Responsible for serving the static web content hosted in GitHub.
+                                    </li>
+                                    <li>AWS API Gateway: AWS service responsible for receiving enquiry details via an
+                                        API call from the webpage, and for
+                                        passing these on to the internal lambda function.</li>
+                                    <li>AWS Lambda: A serverless compute instance responsible for multiple processing
+                                        steps:
+                                        <ul>
+                                            <li>Stores the enquiry details within an AWS DynamoDB instance for later
+                                                retrieval.</li>
+                                            <li>Forwards the enquiry contents to AWS Comprehend to help formulate an
+                                                intelligent
+                                                response to the site visitor.</li>
+                                            <li>Provides logic to formulate an intelligent response based on AWS
+                                                Comprehend
+                                                output.</li>
+                                            <li>Upon successful sending of the message from the website, it invokes AWS
+                                                SES
+                                                to send
+                                                emails to the
+                                                website enquirer.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Amazon DynamoDB: A NoSQL database responsible for storing enquiry details from
+                                        individuals visiting the webpage.</li>
+                                    <li>AWS Comprehend: An intelligent NLP service capable of characterising sentiment
+                                        and extracting key-phrases from the
+                                        ingested text. Used to detect topics within the received webpage enquiries.</li>
+                                </ul>
+                                <a href="index.html">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -288,12 +323,44 @@
                                     src="assets/img/portfolio/sebastian-pichler-oqFHLfLFtmc-unsplash.jpg" alt="" />
                                 <!-- Portfolio Piece - Text-->
                                 <!-- Modify the description of the second portfolio project here-->
-                                <p class="mb-5">Designed and built a PoC rock formation density classifier to aid
-                                    engineers in the preliminary building design phase</p>
-                                <button class="btn btn-primary" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <h3>Project Description</h3>
+                                <hr>
+                                <br>
+                                <h6 class="mb-5">The objective is to develop an intelligent Data Engineering
+                                    website using Python and AWS.</h6>
+                                <ul class="mb-5 text-left">
+                                    <li>GitHub Repo: The repository houses the source code and other files for the
+                                        website.</li>
+                                    <li>AWS Amplify: Responsible for serving the static web content hosted in GitHub.
+                                    </li>
+                                    <li>AWS API Gateway: AWS service responsible for receiving enquiry details via an
+                                        API call from the webpage, and for
+                                        passing these on to the internal lambda function.</li>
+                                    <li>AWS Lambda: A serverless compute instance responsible for multiple processing
+                                        steps:
+                                        <ul>
+                                            <li>Stores the enquiry details within an AWS DynamoDB instance for later
+                                                retrieval.</li>
+                                            <li>Forwards the enquiry contents to AWS Comprehend to help formulate an
+                                                intelligent
+                                                response to the site visitor.</li>
+                                            <li>Provides logic to formulate an intelligent response based on AWS
+                                                Comprehend
+                                                output.</li>
+                                            <li>Upon successful sending of the message from the website, it invokes AWS
+                                                SES
+                                                to send
+                                                emails to the
+                                                website enquirer.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Amazon DynamoDB: A NoSQL database responsible for storing enquiry details from
+                                        individuals visiting the webpage.</li>
+                                    <li>AWS Comprehend: An intelligent NLP service capable of characterising sentiment
+                                        and extracting key-phrases from the
+                                        ingested text. Used to detect topics within the received webpage enquiries.</li>
+                                </ul>
+                                <a href="index.html">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -333,13 +400,44 @@
                                     src="assets/img/portfolio/halgatewood-com-OgvqXGL7XO4-unsplash.jpg" alt="" />
                                 <!-- Portfolio Piece - Text-->
                                 <!-- Modify the description of the third portfolio project here-->
-                                <p class="mb-5">This project covers several cases of detector design optimization in
-                                    high energy physics experiments using Bayesian optimization with Gaussian processes
-                                </p>
-                                <button class="btn btn-primary" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <h3>Project Description</h3>
+                                <hr>
+                                <br>
+                                <h6 class="mb-5">The objective is to develop an intelligent Data Engineering
+                                    website using Python and AWS.</h6>
+                                <ul class="mb-5 text-left">
+                                    <li>GitHub Repo: The repository houses the source code and other files for the
+                                        website.</li>
+                                    <li>AWS Amplify: Responsible for serving the static web content hosted in GitHub.
+                                    </li>
+                                    <li>AWS API Gateway: AWS service responsible for receiving enquiry details via an
+                                        API call from the webpage, and for
+                                        passing these on to the internal lambda function.</li>
+                                    <li>AWS Lambda: A serverless compute instance responsible for multiple processing
+                                        steps:
+                                        <ul>
+                                            <li>Stores the enquiry details within an AWS DynamoDB instance for later
+                                                retrieval.</li>
+                                            <li>Forwards the enquiry contents to AWS Comprehend to help formulate an
+                                                intelligent
+                                                response to the site visitor.</li>
+                                            <li>Provides logic to formulate an intelligent response based on AWS
+                                                Comprehend
+                                                output.</li>
+                                            <li>Upon successful sending of the message from the website, it invokes AWS
+                                                SES
+                                                to send
+                                                emails to the
+                                                website enquirer.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Amazon DynamoDB: A NoSQL database responsible for storing enquiry details from
+                                        individuals visiting the webpage.</li>
+                                    <li>AWS Comprehend: An intelligent NLP service capable of characterising sentiment
+                                        and extracting key-phrases from the
+                                        ingested text. Used to detect topics within the received webpage enquiries.</li>
+                                </ul>
+                                <a href="index.html">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -379,12 +477,44 @@
                                     alt="" />
                                 <!-- Portfolio Piece - Text-->
                                 <!-- Modify the description of the fourth portfolio project here-->
-                                <p class="mb-5">Created a light weight deep learning model able to be deployed on a
-                                    Raspberry PI for use in a toy self-driving car</p>
-                                <button class="btn btn-primary" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <h3>Project Description</h3>
+                                <hr>
+                                <br>
+                                <h6 class="mb-5">The objective is to develop an intelligent Data Engineering
+                                    website using Python and AWS.</h6>
+                                <ul class="mb-5 text-left">
+                                    <li>GitHub Repo: The repository houses the source code and other files for the
+                                        website.</li>
+                                    <li>AWS Amplify: Responsible for serving the static web content hosted in GitHub.
+                                    </li>
+                                    <li>AWS API Gateway: AWS service responsible for receiving enquiry details via an
+                                        API call from the webpage, and for
+                                        passing these on to the internal lambda function.</li>
+                                    <li>AWS Lambda: A serverless compute instance responsible for multiple processing
+                                        steps:
+                                        <ul>
+                                            <li>Stores the enquiry details within an AWS DynamoDB instance for later
+                                                retrieval.</li>
+                                            <li>Forwards the enquiry contents to AWS Comprehend to help formulate an
+                                                intelligent
+                                                response to the site visitor.</li>
+                                            <li>Provides logic to formulate an intelligent response based on AWS
+                                                Comprehend
+                                                output.</li>
+                                            <li>Upon successful sending of the message from the website, it invokes AWS
+                                                SES
+                                                to send
+                                                emails to the
+                                                website enquirer.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Amazon DynamoDB: A NoSQL database responsible for storing enquiry details from
+                                        individuals visiting the webpage.</li>
+                                    <li>AWS Comprehend: An intelligent NLP service capable of characterising sentiment
+                                        and extracting key-phrases from the
+                                        ingested text. Used to detect topics within the received webpage enquiries.</li>
+                                </ul>
+                                <a href="index.html">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -420,8 +550,8 @@
                                 </div>
                                 <!-- Portfolio Piece - Image-->
                                 <!-- Modify the image of the fifth portfolio project here -->
-                                <img class="img-fluid rounded mb-5"
-                                    src="assets/img/portfolio/end-to-end-pipeline moving.jpg" alt="" />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/end-to-end-pipeline.jpg"
+                                    alt="" />
                                 <!-- Portfolio Piece - Text-->
                                 <!-- Modify the description of the fifth portfolio project here-->
                                 <h3>Project Description</h3>
