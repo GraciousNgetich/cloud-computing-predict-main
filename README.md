@@ -1,6 +1,4 @@
 # Cloud Computing Predict
-
-#### EXPLORE Data Science Academy Cloud Computing Predict
 ## Overview
 
 In this predict you will make use of Python and AWS to create an intelligent data science portfolio website. At a high-level, the website will be hosted in a serverless manner on AWS; showcasing your amazing data science, machine learning and AI projects. 
@@ -466,7 +464,7 @@ In this section we will review a basic example of how an email response is gener
 
 Let's say someone visiting your deployed webpage posts the following sample message using the form:
 
-> Hi Explore Data Science Student,
+> Hi Data Science Student,
 >
 > I love your website and your portfolio projects. I also had a look at your GitHub page and I am quite impressed with the quality of your work.
 >
@@ -573,7 +571,7 @@ Once completed, your predict solution will be marked at a time indicated within 
  - The **Website URL** of your deployed project as recorded in [Step 3](#3_section_id) of this guide, and 
  - Your **AWS API Gateway URL** as recorded in part 3 of [Step 6](#6_section_id). 
 
-Please also ensure that you have verified the `edsa.predicts@explore-ai.net` email address via AWS SES as instructed in step 8, part 1. 
+Please also ensure that you have verified the `` email address via AWS SES as instructed in step 8, part 1. 
 
 Note that while you are free to personalise many aspects of this predict, for assessment purposes you will only be awarded marks for its functionality. As such, please make every effort to ensure that your completed predict solution is able to replicate the functioning specified throughout the above instruction steps.  
 
@@ -587,6 +585,3 @@ Following the conclusion of this predict and its assessment, you are free (and w
    - Use a different [Bootstrap](https://getbootstrap.com/) template and see if you can reproduce the results of the project.
    - Integrate more AWS services. For example, see if you can integrate AWS QuickSight to visualize the data in your AWS DynamoDB NoSQL database. Alternatively, you could try to use the [AWS Lex](https://aws.amazon.com/lex/) service to place a chatbot on your profile page, adding another layer of intelligent interaction to engage potential clients.
 
-<p align="center">
-  <img src="assets/img/digital_skills_logo.png" width=800px/>
-</p>
